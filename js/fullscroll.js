@@ -20,7 +20,8 @@
         //初始化
         options.start = function() {
             $(obj).css({
-                height: (number - 1) * height + "px"
+                height: (number - 1) * height + "px",
+                position: "relative"
             });
             $("." + className).css({
                 position: "absolute",
